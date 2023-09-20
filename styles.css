@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 2rem;
+}
+
+
+.calc-display{
+  display:flex;
+  justify-content: end;
+  align-items: end;
+  border: solid black 5px;
+  width: 400px;
+  height: 150px;
+  font-size: 3rem;
+  padding: 10px 30px;
+  overflow: hidden;
+}
+
+.cal-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-buttons-container{
+  display:flex;
+}
+
+.calc-numbers-container{
+  width: 300px;
+  height: 400px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-numbers-container button{
+  height:100%;
+}
+
+.calc-operators-container {
+  display:flex;
+  flex-direction: column;
+}
+
+.operator {
+  width: 100px;
+  height: 100px;
+}
