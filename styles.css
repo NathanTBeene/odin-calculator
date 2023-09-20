@@ -6,6 +6,8 @@
 
 button {
   font-size: 2rem;
+  width: 100px;
+  height: 100px;
 }
 
 
@@ -48,9 +50,4 @@ button {
 .calc-operators-container {
   display:flex;
   flex-direction: column;
-}
-
-.operator {
-  width: 100px;
-  height: 100px;
 }
