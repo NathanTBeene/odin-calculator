@@ -17,6 +17,7 @@ button {
   width: 400px;
   height: 150px;
   font-size: 3rem;
+
   padding: 10px 30px;
   overflow: hidden;
 }
